@@ -2,11 +2,30 @@
 @import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
 @import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=!");
 
+a{
+	color:#7af0c9;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+a:visited{
+	color:rgb(78, 169, 78);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+a:hover {
+	color: rgb(6, 249, 87);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
-  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+  background: radial-gradient(circle, #008000, #006400, #122b1b, #000);
 }
 
 .stage {
@@ -131,12 +150,12 @@ body {
 }
 
 .layer:nth-child(n+11):after {
-  -webkit-text-stroke: 15px dodgerblue;
-  text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+  -webkit-text-stroke: 15px rgb(8, 63, 17);
+  text-shadow: 6px 0 6px #006b20, 5px 5px 5px #002951, 0 6px 6px #006b20;
 }
 
 .layer:nth-child(n+12):after {
-  -webkit-text-stroke: 15px #0077ea;
+  -webkit-text-stroke: 15px #00ea69;
 }
 
 .layer:last-child:after {
