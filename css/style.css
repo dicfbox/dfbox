@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/earlyaccess/kokoro.css');
-@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
+@import url('https://fonts.googleapis.com/css?family=Corben:700 rel=swap');
 
-p{
-  font-family: "Nico Moji";
-  font-size: 2rem;
+header {
+  width: 100%;
+  padding: 5px 1% 5px;
+  font-family: "Corben","Hiragino Kaku Gothic ProN", sans-serif;
 }
 a{
+  text-decoration:none; 
 	color:#7af0c9;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
